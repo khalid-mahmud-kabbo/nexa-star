@@ -11,7 +11,7 @@ const UserSchema = new mongoose.Schema(
     email: { type: String, required: true, unique: true, lowercase: true, trim: true },
     passwordHash: { type: String, required: true },
 
-    // Affiliate / referral
+    // Star / referral
     referralCode: { type: String, unique: true, default: () => genReferralCode() },
     referredBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null },
     totalEarnings: { type: Number, default: 0 },

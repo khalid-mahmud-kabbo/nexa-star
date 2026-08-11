@@ -8,7 +8,7 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Plans from './pages/Plans';
 import PaymentResult from './pages/PaymentResult';
-import ApiKeys from './pages/ApiKeys';
+import Device from './pages/Device';
 import History from './pages/History';
 import Profile from './pages/Profile';
 
@@ -38,10 +38,10 @@ export default function App() {
               }
             />
             <Route
-              path="/api-keys"
+              path="/devices"
               element={
                 <ProtectedRoute>
-                  <ApiKeys />
+                  <Device />
                 </ProtectedRoute>
               }
             />

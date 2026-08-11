@@ -30,7 +30,7 @@ export default function Login() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-extrabold tracking-tight">
-            <span className="brand-gradient">Nexa</span> <span className="text-white">Affiliate</span>
+            <span className="brand-gradient">Nexa</span> <span className="text-white">Star</span>
           </h1>
           <p className="text-sm text-dim mt-2">Sign in to your dashboard</p>
         </div>

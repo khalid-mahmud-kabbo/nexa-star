@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 
 const ITEMS = [
   { to: '/dashboard', icon: '⌂', label: 'Home' },
-  { to: '/api-keys', icon: '🔑', label: 'API Keys' },
+  { to: '/devices', icon: '📱', label: 'API Keys' },
   { to: '/history', icon: '💾', label: 'History', badge: 'New' },
   { to: '/profile', icon: '👤', label: 'Profile' },
   { to: '/plans', icon: '♛', label: 'Plans' }
